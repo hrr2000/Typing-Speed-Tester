@@ -1,0 +1,71 @@
+@font-face{
+	font-family:digital;
+	src: url("digit.ttf");
+}
+
+.body{
+	-fx-background-color: linear-gradient(to top left, #272727 , #0a0a0a );
+	-fx-background-radius:10px;
+	-fx-border-radius:10px;
+	-fx-padding:10px;
+	-fx-padding-bottom:20px;
+}
+.img1,.img2,.img3,.img4{
+	-fx-background-size:100%;
+	-fx-background-position:bottom;
+	-fx-background-attachment:fixed;
+}
+.img1{
+	-fx-background-image:url('bird.gif');
+}
+.img2{
+	-fx-background-image:url('turtle.gif');
+}
+.img3{
+	-fx-background-image:url('t-rex.gif');
+}
+.img4{
+	-fx-background-image:url('octupus.gif');
+}
+.react-text{
+	-fx-text-fill:#d3d3d3;
+	-fx-font-size:19px;
+	-fx-padding:10px;
+}
+.scroll{
+	-fx-background-color:#191919;
+	-fx-background:#191919;
+	-fx-max-height:30px;
+	-fx-padding:5px;
+}
+.scroll:hover{
+	-fx-background-color:#282828;
+	-fx-background:#282828;
+}
+.paragraph .scroll-bar:vertical{
+	-fx-background-color:white;
+	-fx-opacity:0;
+}
+.num-box{
+	-fx-padding:20px 55px;
+	-fx-font-size:70px;
+	-fx-text-fill:#717171;
+	-fx-font-family:digital;
+}
+.word-field{
+	-fx-background-color:transparent;
+	-fx-padding:0;
+	-fx-font-size:20px;
+	-fx-text-fill:white;
+	-fx-font-weight:bolder;
+	-fx-border:0;
+	-fx-opacity: 1.0 !important;
+}
+.word-label{
+	-fx-font-size:20px;
+	-fx-text-fill:#717171;
+	-fx-font-weight:bolder;
+}
+.word-box{
+	-fx-padding:10px;
+}
