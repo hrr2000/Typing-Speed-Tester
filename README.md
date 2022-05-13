@@ -1,5 +1,9 @@
 # Typing-Speed-Tester
 A Java program that is used to test the speed of typing
+
+<b>preview Link:</b>
+https://www.youtube.com/watch?v=HFvjzNq28M0&ab_channel=NFAcademy
+
 <br/>
  <img style="margin:auto" src="https://github.com/hrr2000/Typing-Speed-Tester/blob/main/ss/img1.PNG"> 
  <br/>
